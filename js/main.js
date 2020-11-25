@@ -1,27 +1,44 @@
 $(document).ready(
   function () {
 
-    $('.header-right ul li:nth-child(2)').mouseenter(
+    $('#abbonamenti').mouseenter(
       function () {
         $('.abbonamenti').removeClass('hide');
+        $('.chi-siamo').addClass('hide');
+        $('.aiuto').addClass('hide');
       }
     );
-    $('.header-right ul li:nth-child(2)').mouseleave(
+    // $('.abbonamenti').mouseleave(
+    //   function () {
+    //     $('.abbonamenti').addClass('hide');
+    //   }
+    // );
+
+    $('#chi-siamo').mouseenter(
       function () {
+        $('.chi-siamo').removeClass('hide');
+        $('.abbonamenti').addClass('hide');
+        $('.aiuto').addClass('hide');
+      }
+    );
+    // $('.chi-siamo').mouseleave(
+    //   function () {
+    //     $('.chi-siamo').addClass('hide');
+    //   }
+    // );
+
+    $('#aiuto').mouseenter(
+      function () {
+        $('.aiuto').removeClass('hide');
+        $('.chi-siamo').addClass('hide');
         $('.abbonamenti').addClass('hide');
       }
     );
-
-    $('.header-right ul li:nth-child(3)').mouseenter(
-      function () {
-        $('.chi-siamo').removeClass('hide');
-      }
-    );
-    $('.header-right ul li:nth-child(3)').mouseleave(
-      function () {
-        $('.chi-siamo').addClass('hide');
-      }
-    );
+    // $('.aiuto').mouseleave(
+    //   function () {
+    //     $('.aiuto').addClass('hide');
+    //   }
+    // );
 
 
   }
