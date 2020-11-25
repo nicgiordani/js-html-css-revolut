@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  padding-top: 30px;
+  width: 75%;
+  margin: auto;
+  height: 90px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+#logo {
+  height: 55%;
+}
+.header-left ul,
+.header-right ul {
+  list-style: none;
+}
+.header-left ul li,
+.header-right ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.header-left ul li a,
+.header-right ul li a {
+  color: grey;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.abbonamenti {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #DADADB;
+  margin-top: 20px;
+  left: 40%;
+  width: 15%;
+}
+.abbonamenti ul {
+  list-style: none;
+}
+.abbonamenti ul li {
+  line-height: 30px;
+}
+.abbonamenti ul li a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+.chi-siamo {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #DADADB;
+  margin-top: 20px;
+  left: 51%;
+  width: 20%;
+}
+.chi-siamo ul {
+  list-style: none;
+}
+.chi-siamo ul li {
+  display: block;
+  line-height: 30px;
+}
+.chi-siamo ul li a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+.aiuto {
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #DADADB;
+  margin-top: 20px;
+  left: 51%;
+  width: 15%;
+}
+.aiuto ul {
+  list-style: none;
+}
+.aiuto ul li {
+  display: block;
+  line-height: 30px;
+}
+.aiuto ul li a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.header-button-left {
+  margin-left: 30px;
+  background-color: #DADADB;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  border: 0px;
+}
+.header-button-right {
+  margin-left: 20px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  border: 0px;
+}
+
+.hide {
+  display: none;
+}
